@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://mrjk05.github.io/wedding/sitemap.xml
