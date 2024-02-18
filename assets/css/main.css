@@ -1580,36 +1580,33 @@ main {
 }
 .post__video, .post__iframe {
   position: relative;
-  display: block;
+  display: block;  
+  margin-top: 2.25rem;
+  margin-bottom: 0.5rem;
   overflow: hidden;
-}
-
-.post__video {
-  grid-column: 1 / 7;
-  text-align: center;
-  margin-top: -1rem;
-  margin-bottom: 0;
   padding: 0;
 }
 
-.post__video::before, 
-.post__iframe::before {
+.post__video {
+  grid-column: 1 / 7; 
+  text-align: center;
+}
+
+.post__video::before, .post__iframe::before {
   display: block;
   content: "";
-  padding-top: var(--embed-aspect-ratio);
+  padding-top: var(--embed-aspect-ratio);  
 }
 
-.post__video iframe,
-.post__video video, 
-.post__iframe iframe,
-.post__iframe video {
+.post__video iframe, .post__video video, .post__iframe iframe, .post__iframe video {
   border: none;
   height: 100%;
-  width: 100%;
+  width: 100%; /* Updated */
 }
 
-.post__video + * {
-  margin-top: 0 !important;
+.post__image--full {
+  grid-column: 1/7;
+  text-align: center;
 }
 
 .post__image--full {
