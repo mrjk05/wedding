@@ -1600,11 +1600,6 @@ main {
   height: 100%;
   width: 100%; /* Updated */
 }
-.post__video video {
-  autoplay: true;
-  controls: false;
-  loop: true;
-}
 .post__toc {
   margin-top: 1.75rem;
 }
