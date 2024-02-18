@@ -1583,7 +1583,7 @@ main {
   display: block;
   margin-top: 2.25rem;
   margin-bottom: 0.5rem;
-  overflow: visible;
+  overflow: hidden;
   padding: 0;
 }
   .post__video {
@@ -1599,7 +1599,6 @@ main {
   border: none;
   height: 100%;
   width: 100%; /* Updated */
-  object-fit: cover;
 }
 .post__toc {
   margin-top: 1.75rem;
